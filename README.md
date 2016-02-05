@@ -40,7 +40,7 @@ Operating systems
 -----------------
 Currently we support running *Mangos* on these operating systems:
 
-* **Windows**, 32 bit and 64 bit. [Windows][20] 7 or newer is recommended.
+* **Windows**, 32 bit and 64 bit. [Windows][20] 2008 Server / Windows 7 or newer is recommended.
 * **Linux**, 32 bit and 64 bit. [Debian 7][21] and [Ubuntu 12.04 LTS][22] are
   recommended. Other distributions with similar package versions will work, too.
 * **BSD**, 32 bit and 64 bit. [FreeBSD][23], [NetBSD][24], [OpenBSD][25] and
@@ -93,7 +93,7 @@ their systems package management instead of source packages.*
   scripting environment, which allows us to make live changes to scripted
   content.
 
-*Recast*, *G3D* and *libmpq* are included in the *Mangos* distribution as
+*ACE*, *Recast*, *G3D* and *libmpq* are included in the *Mangos* distribution as
 we rely on specific versions.
 
 Optional dependencies
