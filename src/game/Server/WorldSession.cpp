@@ -412,7 +412,9 @@ void WorldSession::LogoutPlayer(bool Save)
         {
             _player->GetHostileRefManager().deleteReferences();
             _player->BuildPlayerRepop();
+			_player->SetCanDelayTeleport(false);
             _player->RepopAtGraveyard();
+			_player->SetCanDelayTeleport(true);
         }
         else if (!_player->getAttackers().empty())
         {
